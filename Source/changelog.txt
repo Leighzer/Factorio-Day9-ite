@@ -1,4 +1,9 @@
 ---------------------------------------------------------------------------------------------------
+Version: 0.1.2
+  Bugfixes:
+    - Renamed img file names to fix crash when running mod from zipped folder.
+
+---------------------------------------------------------------------------------------------------
 Version: 0.1.1
   Changes:
     - Fixed emote to iron-plate and copper-plate recipe result counts.
