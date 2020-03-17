@@ -1,10 +1,10 @@
 {
   "name": "leighzerdayninite",
-  "version": "0.1.2",
+  "version": "0.1.3",
   "title": "Day[9]-ite",
   "author": "Leighzer",
   "contact": "Please message me on the factorio forums my username is leighzer.",  
-  "factorio_version": "0.17",
-  "dependencies": [ "base >= 0.17.79"],
+  "factorio_version": "0.18",
+  "dependencies": [ "base >= 0.18.1"],
   "description": "Adds a new ore that breaks down into 9 useful intermediate products that also happen to be good for branding."
 }

@@ -3,7 +3,7 @@ data:extend(
 {
   
   {--prototype for particles that fly out when you hand mine the ore in the ground    
-    type = "particle",
+    type = "optimized-particle",
     name = "dayninite-ore-particle",    
     life_time = 180,
     pictures =
