@@ -4,7 +4,7 @@ data:extend(
         type = "autoplace-control",
         name = "dayninite-ore",
         richness = true,
-        order = "b-i",
+        order = "x-b",--"b-i",
         category="resource"
         },
         {

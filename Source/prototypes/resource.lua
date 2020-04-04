@@ -6,7 +6,7 @@ data:extend(
    icon = "__leighzerdayninite__/graphics/icons/dayninite-ore.png",
    icon_size = 64,
    flags = {"placeable-neutral"},
-   order="h",
+   order="x-b",
    map_color = leighzermods.leighzerdayninite.tints.daynineyello,--color used for ore patch when viewed from mini map
    minable =
    {     

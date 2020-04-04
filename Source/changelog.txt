@@ -1,4 +1,11 @@
 ---------------------------------------------------------------------------------------------------
+Version: 0.1.4
+  Changes:
+    - Day[9]-ite related recipes are no longer hand craftable. (This ensures the ore does not appear in the 'total raw' section and doesn't cause conflict when hand crafting other vanilla items)
+    - Updated ore resource ordering (editor menu).
+    - Updated ordering of autoplace control (new game menu).
+
+---------------------------------------------------------------------------------------------------
 Version: 0.1.2
   Bugfixes:
     - Renamed img file names to fix crash when running mod from zipped folder.
