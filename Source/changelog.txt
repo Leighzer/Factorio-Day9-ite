@@ -1,4 +1,10 @@
 ---------------------------------------------------------------------------------------------------
+Version: 0.2.0
+  Changes:
+    - Version bump to 1.0.
+    - Tune and buff some recipes so the optimal builds are cleaner, easier to figure out/make, and more competitive with the vanilla alternative.
+    - Up stack count of dayheart to match stack count of fish.
+---------------------------------------------------------------------------------------------------
 Version: 0.1.5
   Changes:
     - Version bump to 1.0.

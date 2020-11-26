@@ -1,3 +1,5 @@
+local resource_autoplace = require("resource-autoplace")
+
 data:extend(
 {   
    {--prototype for the actual ore object that is in the ground

@@ -1,3 +1,5 @@
+local sounds = require ("__base__.prototypes.entity.sounds")
+
 data:extend(
 {    
       {--prototype for object that gets stored in inventory when ore is mined
@@ -30,6 +32,7 @@ data:extend(
         attack_parameters =
         {
           type = "projectile",
+          activation_type = "consume",
           ammo_category = "capsule",
           cooldown = 30,
           range = 0,
@@ -47,6 +50,10 @@ data:extend(
                 {
                   type = "damage",
                   damage = {type = "physical", amount = -80}
+                },
+                {
+                  type = "play-sound",
+                  sound = sounds.eat_fish
                 }
               }
             }
@@ -55,7 +62,7 @@ data:extend(
       },
       subgroup = "leighzerdayninite-products",
       order = "z",
-      stack_size = 50,
+      stack_size = 100,
     },
 
 
@@ -121,9 +128,9 @@ data:extend(
     energy_required = 1,    
     enabled = true,
     category = "advanced-crafting",
-    ingredients = {{"dayrope", 2},{"daysave",3}},
+    ingredients = {{"dayrope", 4},{"daysave", 4}},
     result = "electronic-circuit",
-    result_count = 1,
+    result_count = 2,
     subgroup = "leighzerdayninite-products",
     order = "d"
     },
@@ -134,7 +141,7 @@ data:extend(
     energy_required = 5,
     enabled = true,
     category = "advanced-crafting",
-    ingredients = {{"daygoblin", 4},{"dayknight",3}},
+    ingredients = {{"daygoblin", 3},{"dayknight",3}},
     result = "firearm-magazine",
     result_count = 1,
     subgroup = "leighzerdayninite-products",
